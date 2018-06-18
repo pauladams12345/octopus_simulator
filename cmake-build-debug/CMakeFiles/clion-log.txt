@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/7.3.0/bin/gcc-7 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/7.3.0/bin/g++-7 -G "CodeBlocks - Unix Makefiles" "/Users/pauladams/Google Drive/OSU/162/final_project"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/pauladams/Google Drive/OSU/162/final_project/cmake-build-debug
