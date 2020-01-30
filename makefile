@@ -12,10 +12,10 @@ HEADERS = CoralReef.hpp DeepSea.hpp Den.hpp DesolateCliffs.hpp Game.hpp KelpFore
 
 
 lab1: ${OBJS} ${HEADERS}
-	${CXX} ${OBJS} -o final_project
+	${CXX} ${OBJS} -o octopus_simulator
 
 ${OBJS}: ${SRCS}
 	${CXX} ${CXXFLAGS} -c $(@:.o=.cpp)
 
 clean:
-	rm *.o final_project
+	rm *.o octopus_simulator
